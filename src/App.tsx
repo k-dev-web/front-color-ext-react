@@ -35,7 +35,7 @@ const App: React.FC = () => (
         <Route exact path="/colors">
           <Colors />
         </Route>
-        <Route exact path="/.*">
+        <Route exact path="/">
           <Redirect to="/login" />
         </Route>
       </IonRouterOutlet>

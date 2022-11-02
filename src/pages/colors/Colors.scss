@@ -43,6 +43,9 @@ ion-title {
 
 .pagination {
   float: right;
+  .selected{
+    color:blue;
+  }
 }
 
 .circle {
@@ -51,3 +54,4 @@ ion-title {
   border-radius: 50%;
   border: 1px solid black;
 }
+

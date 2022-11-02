@@ -11,7 +11,6 @@ export const Api = () => {
                 sendParams += `${k}=${params[k]}`;
             }
         }
-        console.log(sendParams)
         try {
             const req = await request(endpoint + sendParams, 'GET')
             return req
