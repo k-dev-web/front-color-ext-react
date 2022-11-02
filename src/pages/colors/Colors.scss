@@ -1,0 +1,53 @@
+ion-header {
+  display: flex;
+  align-items: center;
+  ion-label{
+    flex:auto;
+  }
+}
+
+.table {
+  border: 1px solid black;
+
+  ion-row {
+    border: 1px solid black;
+
+  }
+
+  ion-col {
+    border: 1px solid black;
+
+  }
+}
+
+.colors {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100% - 25px);
+
+  .square {
+    width: calc(20% - 10px);
+    height: calc(50% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 5px;
+  }
+}
+
+ion-title {
+  height: 25px;
+}
+
+.pagination {
+  float: right;
+}
+
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid black;
+}

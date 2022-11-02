@@ -1,0 +1,7 @@
+{
+  "name": "react-front-ext",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
